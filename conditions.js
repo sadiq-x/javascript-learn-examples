@@ -25,7 +25,7 @@ function testEqualEqual(val) {
 }
 //console.log(testEqualEqual(12))
 
-function lessOrEqual (num) {
+function lessOrEqual(num) {
     if (num < 10) {
         console.log("Less 10");
     }
@@ -36,3 +36,40 @@ function lessOrEqual (num) {
 }
 //console.log(lessOrEqual(1))
 
+
+function switchCases(val) {
+    var answer = "";
+    switch (val) {
+        case 1:
+            answer = "true";
+            break;
+        case 2:
+            answer = "false";
+            break;
+    }
+    return answer;
+}
+//console.log(switchCases(1))
+
+function doWhile(arg) {
+    while (arg <= 10) {
+        console.log(arg);
+        arg++;
+
+    }
+}
+//doWhile(3)
+
+function forAny(arg) {
+    for (var i = 1; i < arg; i++) {
+        console.log(i + " " + arg);
+    }
+}
+//forAny(10);
+
+function forString (str) {
+    for (let i = 0; i < str.length; i++){
+        console.log(str[i])
+    }
+}
+//forString("Rafael")

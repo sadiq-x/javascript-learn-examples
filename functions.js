@@ -30,3 +30,5 @@ async function getBoolean() {
     return true;
 }
 var getCar = await getBoolean();
+
+
