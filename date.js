@@ -1,0 +1,1 @@
+var realDate = new Date.now(); //Get the real data

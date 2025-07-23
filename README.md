@@ -16,4 +16,4 @@ index.html
 objects.js
 
 ### Videos viewed to learn
-https://www.youtube.com/watch?v=PkZNo7MFNFg -- 2:22:46 of 3:26:42
+https://www.youtube.com/watch?v=PkZNo7MFNFg 

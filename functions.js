@@ -26,9 +26,12 @@ function sumNumbers(num1, num2) {
     return sum;
 }
 
-async function getBoolean() {
+export async function getBoolean() {
     return true;
 }
 var getCar = await getBoolean();
 
-
+export default function argEmpty (arg = 1) {
+    return arg;
+}
+//console.log(argEmpty()) //Print the default number "1" or the argument passed
